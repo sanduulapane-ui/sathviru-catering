@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ඇණවුම් කිරීම - සත්විරු කේටරින්</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <header class="bg-red-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">සත්විරු කේටරින්</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-yellow-300">මුල් පිටුව</a></li>
+                    <li><a href="menu.html" class="hover:text-yellow-300">කෑම මෙනුව</a></li>
+                    <li><a href="order.html" class="hover:text-yellow-300">ඇණවුම් කිරීම</a></li>
+                    <li><a href="about.html" class="hover:text-yellow-300">අප ගැන</a></li>
+                    <li><a href="contact.html" class="hover:text-yellow-300">විමසීම්</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="order-section py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">කෑම ඇණවුම් කිරීම</h2>
+            <form class="max-w-md mx-auto bg-white shadow-md rounded-lg p-8">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 text-sm font-bold mb-2">නම:</label>
+                    <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="ඔබගේ නම ඇතුලත් කරන්න" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 text-sm font-bold mb-2">විද්‍යුත් තැපැල් ලිපිනය:</label>
+                    <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="ඔබගේ විද්‍යුත් තැපැල් ලිපිනය ඇතුලත් කරන්න" required>
+                </div>
+                <div class="mb-4">
+                    <label for="phone" class="block text-gray-700 text-sm font-bold mb-2">දුරකථන අංකය:</label>
+                    <input type="tel" id="phone" name="phone" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="ඔබගේ දුරකථන අංකය ඇතුලත් කරන්න" required>
+                </div>
+                <div class="mb-4">
+                    <label for="items" class="block text-gray-700 text-sm font-bold mb-2">ඇණවුම් කිරීමට බලාපොරොත්තු වන කෑම වර්ග:</label>
+                    <textarea id="items" name="items" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="කෑම වර්ග සහ ප්‍රමාණයන් ඇතුලත් කරන්න" required></textarea>
+                </div>
+                <div class="mb-4">
+                    <label for="date" class="block text-gray-700 text-sm font-bold mb-2">දිනය සහ වේලාව:</label>
+                    <input type="datetime-local" id="date" name="date" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+                </div>
+                <div class="mb-4">
+                    <label for="address" class="block text-gray-700 text-sm font-bold mb-2">ලිපිනය:</label>
+                    <textarea id="address" name="address" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="ඔබගේ ලිපිනය ඇතුලත් කරන්න" required></textarea>
+                </div>
+                <div class="flex items-center justify-between">
+                    <button class="bg-red-500 hover:bg-red-700 text-white

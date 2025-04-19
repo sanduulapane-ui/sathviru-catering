@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>සත්විරු කේටරින්</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <header class="bg-red-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">සත්විරු කේටරින්</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-yellow-300">මුල් පිටුව</a></li>
+                    <li><a href="menu.html" class="hover:text-yellow-300">කෑම මෙනුව</a></li>
+                    <li><a href="order.html" class="hover:text-yellow-300">ඇණවුම් කිරීම</a></li>
+                    <li><a href="about.html" class="hover:text-yellow-300">අප ගැන</a></li>
+                    <li><a href="contact.html" class="hover:text-yellow-300">විමසීම්</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero bg-cover bg-center py-20" style="background-image: url('home-bg.jpg')">
+        <div class="container mx-auto text-center text-white">
+            <h2 class="text-4xl font-bold mb-4">ඔබේ ඕනෑම උත්සවයකට රසවත් කෑම වට්ටෝරු</h2>
+            <p class="text-lg mb-8">සත්විරු කේටරින් වෙතින් උසස් තත්ත්වයේ, රසවත් කෑම වර්ග දැන් ඇණවුම් කරන්න.</p>
+            <a href="order.html" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">ඇණවුම් කිරීමට</a>
+        </div>
+    </section>
+
+    <section class="featured-dishes py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">අපගේ ප්‍රධාන කෑම වර්ග</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="dish-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="dish1.jpg" alt="කෑම 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">බත් සහ කරි</h3>
+                        <p class="text-gray-700">ශ්‍රී ලාංකීය රසට සකස් කල බත් සහ කරි වර්ග.</p>
+                    </div>
+                </div>
+                <div class="dish-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="dish2.jpg" alt="කෑම 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">පොල් රොටි</h3>
+                        <p class="text-gray-700">රසවත් පොල් රොටි සහ ලුණු මිරිස්.</p>
+                    </div>
+                </div>
+                <div class="dish-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="dish3.jpg" alt="කෑම 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">කිරිබත්</h3>
+                        <p class="text-gray-700">අලුත් අවුරුදු රසට කිරිබත් සහ ලුණු මිරිස්.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 සත්විරු කේටරින්. සියලුම හිමිකම් ඇවිරිණි.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
